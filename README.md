@@ -1,3 +1,4 @@
 # README.md
-My first version my title and headers were saying the exact same thing.  After viewing the actual page, I noticed that this was extremely redundant so I changed the headers to be something more meaningful.  I also noticed that I could put in actual website links in the topics page.  This allows the end user to go exactly to where they need to be, which will be very useful.  
-I also noted that between the first and final version, the use of navigation links made the site way easier to be able move around instead of having to use the back button all of the time. 
+The program I created checks the number of year that an employee works for SWTC.  This will determine what their service award stipend would be. 
+The different outcomes vary depending on the number of year they have been with SWTC.
+What I learned real quick is that in this example, I actually had to build it "backwards" becuase if I started with the 5 year, then it always stopped for anyone over 5 years, however when built "upside" down, it stops at the correct bucket depending on how long the person has been here. 
