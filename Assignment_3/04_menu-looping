@@ -1,0 +1,22 @@
+choice = ""
+
+while choice != "4":
+    print ()
+    print ("Benefit Choices")
+    print ("1. Health Insurance")
+    print ("2. Dental Insurance")
+    print ("3. Vision Insurance")
+    print ("4. No Benfits Needed")
+
+    choice = input("Enter the benefit you'd like more information on: ")
+    if choice == "1":
+        print("Health Insurance can provide coverage for doctor visits, prescription meds, etc.")
+    elif choice == "2":
+        print("Dental Insurance can provide coverage for dental cleanings and some other dental procedures.")
+    elif choice == "3":
+        print("Vision Insurance can provide coverage for glasses, contacts, and an annual eye exam. Remember if your have chosen Health Insurance, that will pay for an eye exam, so Vision may not be needed.")
+    elif choice == "4":
+        print("No Benefits Selected, no coverage needed at this time. Thanks for being at SWTC!")
+    else:
+        print("Please select a valid option from the menu")
+    
