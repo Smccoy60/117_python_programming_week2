@@ -1,7 +1,11 @@
 Purpose: This programs purpose is to have a user select which benefit they would like more information on. 
 
-I will have 4 choices for them to choose from.  If the user selects option #4, this will end the loop effectively, which is why the while is equal to "4".  The 4 in is "" so that it recognizes it as a string and not a number.
 
-I have the program setup so that it have the user pick an option between three benefit choices or the fourth option of no benefits wanted.  The program is setup to print the 4 menu options and then have the user input the number they want more information on. 
+Code Explanation:
+This uses the while option along with and if and some elseif statments.  The second line of the code is what drives the ending of the loop, which is option 4, no benefits needed.  The code is saying that until the end user enters the selection of 4 the loop will continue. 
 
-Once the selection is made, the program will give a one sentence explanation of the benefit.  If the user selects 4, the program will then exit.  If anything but 4 is selected the loop of the program will continue from the top.  Once 4 is selected the loop will exit because it hit the while choice condition of 4, jumps down to the choice 4, no benefits selected print option and ends the loop.
+Once the program is ran, the user will get a menu showing the 4 options.  It then prompts the end user to pick an option.  If they don't pick a number option from the menu they will get a message to select a valid option.  
+
+Once the enter the menu number, the program goes thru the if and elseif options.  Once the program hits the correct input number and it equals the if or elseif, the corresponding message will appear to the end user.  This loop will continue until the user enters a 4, which ends the loop as coded in the while statment. 
+
+I entered numbers and even words to test to make sure that the code worked correctly.  I tried negative numbers, numbers below the choice number, numbers above the choice number and even words to see if the code would break.  All seemeed good. 
